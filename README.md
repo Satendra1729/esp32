@@ -2,13 +2,13 @@
 
 
 
-# create document as based on reference
+## create document as based on reference
 
-# include firmware installation 
+## include firmware installation 
 
-# esptool.py setup 
+## esptool.py setup 
 
-# install rshell
+## install rshell
 
 
 [reference](https://www.youtube.com/watch?v=w15-EQASP_Y&list=PLKGiH5V9SS1hUz5Jh_35oTFM4wPZYA4sT&index=1)
