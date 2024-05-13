@@ -8,6 +8,11 @@
 
 ## erase esp32 memory and install downloaded firmware
 
+```bash
+esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 ESP32_GENERIC-20240222-v1.22.2.bin
+```
+
 ## install rshell
 
 ## use command 'modinfo cp210x' to verify that cp210x, on already install or not on ubuntu
